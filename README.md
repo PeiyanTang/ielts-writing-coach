@@ -1,6 +1,6 @@
 # IELTS Writing Coach
 
-An open-source Codex skill for rigorous IELTS Academic Writing feedback.
+An open-source Codex skill for rigorous IELTS Academic Writing assessment with multilingual explanations and English Band 8+ model answers.
 
 It assesses either Task 1 or Task 2 independently, gives conservative criterion-level band estimates, diagnoses task and language problems, corrects sentences in context, supplies a realistic Band 8+ model response, and assigns a focused revision instead of automatically demanding a full rewrite.
 
@@ -11,6 +11,7 @@ It assesses either Task 1 or Task 2 independently, gives conservative criterion-
 - Handles Academic Task 1 and Task 2 as separate scripts.
 - Checks task interpretation and idea development before language polishing.
 - Distinguishes actual errors, awkward or imprecise wording, and optional refinements.
+- Explains scores and corrections in the learner's preferred language while keeping corrections, IELTS criterion names, and model answers in English.
 - Preserves a viable Task 2 stance while allowing stronger supporting arguments.
 - Produces one original, exam-realistic Band 8+ model answer.
 - Optionally maintains a private learner profile at a location chosen by the user.
@@ -30,6 +31,10 @@ git clone https://github.com/PeiyanTang/ielts-writing-coach.git ~/.codex/skills/
 ```
 
 Start a new Codex conversation if the skill list does not refresh immediately, then invoke `$ielts-writing-coach` and attach one IELTS Academic prompt and response.
+
+## Language behavior
+
+The coach uses a feedback language explicitly chosen by the learner. If no preference is stated, it follows the primary language of the learner's current request and asks only when the choice is genuinely unclear. It never guesses a mother tongue from a name, location, or background. Submitted writing, proposed corrections, IELTS criterion names, and Band 8+ model answers remain in English.
 
 ## Repository structure
 

@@ -1,4 +1,4 @@
 interface:
   display_name: "IELTS Writing Coach"
-  short_description: "Strict Academic scoring, corrections, and Band 8 models"
-  default_prompt: "Use $ielts-writing-coach to assess my IELTS Academic Writing response."
+  short_description: "Multilingual IELTS scoring, corrections, and Band 8 models"
+  default_prompt: "Use $ielts-writing-coach to assess my IELTS Academic Writing response in my preferred feedback language."

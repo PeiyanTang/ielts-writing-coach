@@ -9,7 +9,7 @@ Use these sections:
 - Target band and module
 - Relevant background supplied by the learner
 - Scoring preference
-- Feedback-language preference
+- Feedback-language preference, including whether it was explicitly chosen or inferred from the learner's current request
 
 ## Current priorities
 
